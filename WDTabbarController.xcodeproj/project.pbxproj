@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		337372091E8E2D1E00A31256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 337372081E8E2D1E00A31256 /* main.m */; };
+		3373720C1E8E2D1E00A31256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373720B1E8E2D1E00A31256 /* AppDelegate.m */; };
+		3373720E1E8E2D1E00A31256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3373720D1E8E2D1E00A31256 /* Assets.xcassets */; };
+		337372111E8E2D1E00A31256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3373720F1E8E2D1E00A31256 /* LaunchScreen.storyboard */; };
+		337372231E8E2D9200A31256 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337372191E8E2D9200A31256 /* FirstViewController.m */; };
+		337372241E8E2D9200A31256 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373721B1E8E2D9200A31256 /* SecondViewController.m */; };
+		337372251E8E2D9200A31256 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3373721D1E8E2D9200A31256 /* ThirdViewController.m */; };
+		337372261E8E2D9200A31256 /* WDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337372201E8E2D9200A31256 /* WDTabbarController.m */; };
+		337372271E8E2D9200A31256 /* WDTabbarSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337372221E8E2D9200A31256 /* WDTabbarSubController.m */; };
+		AD4B3BD67F39B6F02B7D75CB /* libPods-WDTabbarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD540407E07023FC56A3806 /* libPods-WDTabbarController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		273AD1E60F5D7ED31FAE27ED /* Pods-WDTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDTabbarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-WDTabbarController/Pods-WDTabbarController.release.xcconfig"; sourceTree = "<group>"; };
+		337372041E8E2D1E00A31256 /* WDTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337372081E8E2D1E00A31256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3373720A1E8E2D1E00A31256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3373720B1E8E2D1E00A31256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3373720D1E8E2D1E00A31256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		337372101E8E2D1E00A31256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		337372121E8E2D1E00A31256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337372181E8E2D9200A31256 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		337372191E8E2D9200A31256 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3373721A1E8E2D9200A31256 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3373721B1E8E2D9200A31256 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3373721C1E8E2D9200A31256 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3373721D1E8E2D9200A31256 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3373721F1E8E2D9200A31256 /* WDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTabbarController.h; sourceTree = "<group>"; };
+		337372201E8E2D9200A31256 /* WDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTabbarController.m; sourceTree = "<group>"; };
+		337372211E8E2D9200A31256 /* WDTabbarSubController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTabbarSubController.h; sourceTree = "<group>"; };
+		337372221E8E2D9200A31256 /* WDTabbarSubController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTabbarSubController.m; sourceTree = "<group>"; };
+		8AD540407E07023FC56A3806 /* libPods-WDTabbarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WDTabbarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED89E96EB811145D6623B37 /* Pods-WDTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDTabbarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WDTabbarController/Pods-WDTabbarController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		337372011E8E2D1E00A31256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4B3BD67F39B6F02B7D75CB /* libPods-WDTabbarController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337371FB1E8E2D1D00A31256 = {
+			isa = PBXGroup;
+			children = (
+				337372061E8E2D1E00A31256 /* WDTabbarController */,
+				337372051E8E2D1E00A31256 /* Products */,
+				8887AD5178508513B28A33A0 /* Pods */,
+				DCC064C2BF2F7D70E9732C52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		337372051E8E2D1E00A31256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337372041E8E2D1E00A31256 /* WDTabbarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337372061E8E2D1E00A31256 /* WDTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				3373721E1E8E2D9200A31256 /* WDTabbarController */,
+				3373720A1E8E2D1E00A31256 /* AppDelegate.h */,
+				3373720B1E8E2D1E00A31256 /* AppDelegate.m */,
+				337372181E8E2D9200A31256 /* FirstViewController.h */,
+				337372191E8E2D9200A31256 /* FirstViewController.m */,
+				3373721A1E8E2D9200A31256 /* SecondViewController.h */,
+				3373721B1E8E2D9200A31256 /* SecondViewController.m */,
+				3373721C1E8E2D9200A31256 /* ThirdViewController.h */,
+				3373721D1E8E2D9200A31256 /* ThirdViewController.m */,
+				3373720D1E8E2D1E00A31256 /* Assets.xcassets */,
+				3373720F1E8E2D1E00A31256 /* LaunchScreen.storyboard */,
+				337372121E8E2D1E00A31256 /* Info.plist */,
+				337372071E8E2D1E00A31256 /* Supporting Files */,
+			);
+			path = WDTabbarController;
+			sourceTree = "<group>";
+		};
+		337372071E8E2D1E00A31256 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				337372081E8E2D1E00A31256 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3373721E1E8E2D9200A31256 /* WDTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				3373721F1E8E2D9200A31256 /* WDTabbarController.h */,
+				337372201E8E2D9200A31256 /* WDTabbarController.m */,
+				337372211E8E2D9200A31256 /* WDTabbarSubController.h */,
+				337372221E8E2D9200A31256 /* WDTabbarSubController.m */,
+			);
+			path = WDTabbarController;
+			sourceTree = "<group>";
+		};
+		8887AD5178508513B28A33A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED89E96EB811145D6623B37 /* Pods-WDTabbarController.debug.xcconfig */,
+				273AD1E60F5D7ED31FAE27ED /* Pods-WDTabbarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCC064C2BF2F7D70E9732C52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD540407E07023FC56A3806 /* libPods-WDTabbarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337372031E8E2D1E00A31256 /* WDTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337372151E8E2D1E00A31256 /* Build configuration list for PBXNativeTarget "WDTabbarController" */;
+			buildPhases = (
+				C386190C8BE90E0F6FB76CB6 /* [CP] Check Pods Manifest.lock */,
+				337372001E8E2D1E00A31256 /* Sources */,
+				337372011E8E2D1E00A31256 /* Frameworks */,
+				337372021E8E2D1E00A31256 /* Resources */,
+				74F7190F4F8A43BA3F22459F /* [CP] Embed Pods Frameworks */,
+				A94E0D81CF691388FA18DF6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDTabbarController;
+			productName = WDTabbarController;
+			productReference = 337372041E8E2D1E00A31256 /* WDTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		337371FC1E8E2D1D00A31256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.tb;
+				TargetAttributes = {
+					337372031E8E2D1E00A31256 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 337371FF1E8E2D1D00A31256 /* Build configuration list for PBXProject "WDTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 337371FB1E8E2D1D00A31256;
+			productRefGroup = 337372051E8E2D1E00A31256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337372031E8E2D1E00A31256 /* WDTabbarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		337372021E8E2D1E00A31256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3373720E1E8E2D1E00A31256 /* Assets.xcassets in Resources */,
+				337372111E8E2D1E00A31256 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74F7190F4F8A43BA3F22459F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDTabbarController/Pods-WDTabbarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94E0D81CF691388FA18DF6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDTabbarController/Pods-WDTabbarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C386190C8BE90E0F6FB76CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337372001E8E2D1E00A31256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337372271E8E2D9200A31256 /* WDTabbarSubController.m in Sources */,
+				337372241E8E2D9200A31256 /* SecondViewController.m in Sources */,
+				337372251E8E2D9200A31256 /* ThirdViewController.m in Sources */,
+				3373720C1E8E2D1E00A31256 /* AppDelegate.m in Sources */,
+				337372231E8E2D9200A31256 /* FirstViewController.m in Sources */,
+				337372261E8E2D9200A31256 /* WDTabbarController.m in Sources */,
+				337372091E8E2D1E00A31256 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3373720F1E8E2D1E00A31256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				337372101E8E2D1E00A31256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		337372131E8E2D1E00A31256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		337372141E8E2D1E00A31256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		337372161E8E2D1E00A31256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED89E96EB811145D6623B37 /* Pods-WDTabbarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tb.WDTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		337372171E8E2D1E00A31256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273AD1E60F5D7ED31FAE27ED /* Pods-WDTabbarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tb.WDTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337371FF1E8E2D1D00A31256 /* Build configuration list for PBXProject "WDTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337372131E8E2D1E00A31256 /* Debug */,
+				337372141E8E2D1E00A31256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337372151E8E2D1E00A31256 /* Build configuration list for PBXNativeTarget "WDTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337372161E8E2D1E00A31256 /* Debug */,
+				337372171E8E2D1E00A31256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 337371FC1E8E2D1D00A31256 /* Project object */;
+}
